@@ -3,10 +3,10 @@ USE product_manager;
 
 CREATE TABLE PRODUCTS (
 	ID INT PRIMARY KEY AUTO_INCREMENT,
-    ProductName VARCHAR(255) NOT NULL,
-	Price DECIMAL(18, 2) DEFAULT 0.00,
+    ProductName VARCHAR(100) NOT NULL,
+	Price DECIMAL(10, 2) DEFAULT 0.00,
    --  Description TEXT,  
-    Description VARCHAR(1000)
+    Description VARCHAR(250)
 );
 
 -- ID cho thêm thành AUTO increment cho đỡ phải nhập tay
